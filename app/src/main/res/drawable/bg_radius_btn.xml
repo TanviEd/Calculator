@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="StateListReachable">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="#FA0101"/>
+        </shape>
+    </item>
+
+    <item >
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="#00BCD4"/>
+            <gradient android:type="radial"
+                android:startColor="#CBF4F4"
+                android:centerColor="#60EAFB"
+                android:endColor="#00BCD4"
+                android:gradientRadius="80dp"
+                />
+        </shape>
+    </item>
+</selector>
